@@ -60,4 +60,6 @@ public class Snippet {
     public void setModified(java.sql.Date modified) {
         this.modified = modified;
     }
+	
+	
 }
