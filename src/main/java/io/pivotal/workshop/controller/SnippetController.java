@@ -26,7 +26,6 @@ public class SnippetController {
     public Snippet snippet(@PathVariable("id") String id) {
         return snippetRepository.findOne(id);
     }
-
     @PostMapping("/snippets")
     //@RequestMapping(path="/snippets", method = RequestMethod.POST, consumes="application/json", produces="application/json")
     public ResponseEntity<?> add(@RequestBody Snippet snippet) {
